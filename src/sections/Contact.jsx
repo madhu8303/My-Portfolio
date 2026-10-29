@@ -93,7 +93,7 @@ export default function Contact() {
                   ? 'Your message will be sent through Porfolio.'
                   : profile.email
                     ? 'EmailJS is not configured; this form opens your email app instead.'
-                    : 'Configure EmailJS to send messages from this form.')}
+                    : 'Send messages from this form.')}
               </p>
             </div>
           </form>
