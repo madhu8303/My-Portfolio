@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
-import { ArrowDownToLine, ArrowRight, Mail, MapPin } from 'lucide-react';
+import { ArrowRight, Mail, MapPin } from 'lucide-react';
 import SectionHeading from '../components/SectionHeading.jsx';
 import SocialLinks from '../components/SocialLinks.jsx';
 import { profile } from '../data/profile.js';
@@ -75,9 +75,9 @@ export default function Contact() {
             <div className="contact-detail"><MapPin size={18} aria-hidden="true" /><span>{profile.location}</span></div>
             <div className="contact-detail"><Mail size={18} aria-hidden="true" /><span>{profile.email || 'madhuleo33@gmail.com'}</span></div>
             <SocialLinks className="contact-social" />
-            <a className="button button-outline" href={profile.links.resume} download>
+            {/* <a className="button button-outline" href={profile.links.resume} download>
               <ArrowDownToLine size={16} aria-hidden="true" /> Download Resume PDF
-            </a>
+            </a> */}
           </aside>
           <form className="contact-form" onSubmit={handleSubmit} aria-busy={isSending}>
             <div className="form-grid">
