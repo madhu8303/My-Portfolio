@@ -85,7 +85,7 @@ export default function Contact() {
             </div>
             <div className="form-submit-row">
               <button className="button button-primary" type="submit" disabled={isSending}>
-                {isSending ? 'Sending...' : emailJsConfigured ? 'Send Message' : 'Open email app'}
+                {isSending ? 'Sending...' : emailJsConfigured ? 'Send Message' : 'Send Email'}
                 <ArrowRight size={16} aria-hidden="true" />
               </button>
               <p className="form-note" role="status" aria-live="polite">
