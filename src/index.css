@@ -3090,6 +3090,20 @@ body {
   }
 }
 
+@media (min-width: 1051px) {
+  .portfolio-layout .hero-section {
+    position: relative;
+  }
+
+  .portfolio-layout .hero-avatar {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    justify-self: initial;
+    transform: translate(-50%, -50%);
+  }
+}
+
 body {
   font-size: 18px;
 }
