@@ -9,7 +9,7 @@ export const profile = {
   links: {
     github: '',
     linkedin: '',
-    resume: '/Madhusudhan_Resume.pdf',
+    resume: '/Madhusudhan_Resume%20(1).pdf',
   },
 };
 
