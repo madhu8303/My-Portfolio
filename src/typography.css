@@ -1,0 +1,201 @@
+body {
+  font-size: 18px;
+}
+
+.nav-links a,
+.resume-nav {
+  font-size: 14px;
+}
+
+.button {
+  font-size: 14px;
+}
+
+.portfolio-layout .section-heading h2 {
+  font-size: 46px;
+}
+
+.portfolio-layout .section-description {
+  font-size: 17px;
+}
+
+.portfolio-layout .eyebrow,
+.hero-eyebrow {
+  font-size: 12px;
+}
+
+.hero-copy h1 {
+  font-size: 74px;
+}
+
+.hero-role {
+  font-size: 19px;
+}
+
+.hero-intro,
+.about-copy > p {
+  font-size: 18px;
+}
+
+.about-copy > .about-lead {
+  font-size: 24px;
+}
+
+.location-line,
+.education-note span,
+.experience-company,
+.contact-detail {
+  font-size: 15px;
+}
+
+.education-note strong,
+.skill-group h3,
+.achievement-copy h3 {
+  font-size: 17px;
+}
+
+.stat-label,
+.certification-row p,
+.certification-row time,
+.achievement-row time,
+.project-kicker {
+  font-size: 13px;
+}
+
+.stat-panel strong,
+.certification-row h3 {
+  font-size: 16px;
+}
+
+.stat-featured strong {
+  font-size: 26px;
+}
+
+.skill-tags li,
+.technology-list li,
+.form-grid label {
+  font-size: 12px;
+}
+
+.experience-main h3,
+.project-content h3 {
+  font-size: 25px;
+}
+
+.experience-list,
+.project-description,
+.project-details ul,
+.achievement-copy p,
+.contact-aside > p {
+  font-size: 16px;
+}
+
+.project-actions .text-action,
+.form-grid input,
+.form-grid textarea {
+  font-size: 15px;
+}
+
+.form-note,
+.footer-identity p,
+.footer-nav a,
+.footer-bottom {
+  font-size: 12px;
+}
+
+@media (max-width: 1050px) and (min-width: 761px) {
+  .nav-links a,
+  .resume-nav {
+    font-size: 11px;
+  }
+
+  .hero-copy h1 {
+    font-size: 60px;
+  }
+
+  .portfolio-layout .section-heading h2 {
+    font-size: 39px;
+  }
+}
+
+@media (max-width: 760px) {
+  body {
+    font-size: 16px;
+  }
+
+  .portfolio-layout .section-heading h2 {
+    font-size: 36px;
+  }
+
+  .hero-copy h1 {
+    font-size: 50px;
+  }
+
+  .hero-role {
+    font-size: 16px;
+  }
+
+  .hero-intro,
+  .about-copy > p,
+  .experience-list,
+  .project-description,
+  .achievement-copy p,
+  .contact-aside > p {
+    font-size: 14px;
+  }
+
+  .project-content h3,
+  .experience-main h3 {
+    font-size: 21px;
+  }
+
+  .skill-tags li,
+  .technology-list li,
+  .form-grid label {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 520px) {
+  body {
+    font-size: 16px;
+  }
+
+  .portfolio-layout .section-heading h2 {
+    font-size: 31px;
+  }
+
+  .hero-copy h1 {
+    font-size: 40px;
+  }
+
+  .hero-role {
+    font-size: 14px;
+  }
+
+  .about-copy > .about-lead {
+    font-size: 19px;
+  }
+
+  .hero-intro,
+  .about-copy > p,
+  .experience-list,
+  .project-description,
+  .achievement-copy p,
+  .contact-aside > p {
+    font-size: 13px;
+  }
+
+  .project-content h3,
+  .experience-main h3 {
+    font-size: 19px;
+  }
+
+  .skill-tags li,
+  .technology-list li,
+  .form-grid label,
+  .form-grid input,
+  .form-grid textarea {
+    font-size: 12px;
+  }
+}
