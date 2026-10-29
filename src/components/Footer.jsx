@@ -17,7 +17,7 @@ export default function Footer() {
       <div className="page-shell footer-main">
         <div className="footer-identity">
           <a className="footer-name" href="#home">{profile.name}<ArrowUpRight size={16} aria-hidden="true" /></a>
-          <p>Built with React, JavaScript, and CSS.</p>
+          <p></p>
         </div>
         <nav className="footer-nav" aria-label="Footer navigation">
           {footerLinks.map(([id, label]) => <a key={id} href={`#${id}`}>{label}</a>)}
