@@ -44,7 +44,8 @@ export default function Contact() {
         );
         form.reset();
         setStatus('Message sent successfully. Thanks for getting in touch.');
-      } catch {
+      } catch (error) {
+        console.error('EmailJS failed to send the contact form.', error);
         setStatus(profile.email
           ? `Message could not be sent. Email me directly at ${profile.email}.`
           : 'Message could not be sent. Please try again later.');
@@ -73,7 +74,7 @@ export default function Contact() {
           <aside className="contact-aside">
             <p>Open to conversations about software engineering, Python development, and AI-focused opportunities.</p>
             <div className="contact-detail"><MapPin size={18} aria-hidden="true" /><span>{profile.location}</span></div>
-            <div className="contact-detail"><Mail size={18} aria-hidden="true" /><span>{profile.email || 'madhuleo33@gmail.com'}</span></div>
+            <div className="contact-detail"><Mail size={18} aria-hidden="true" /><span>{profile.email}</span></div>
             <SocialLinks className="contact-social" />
             {/* <a className="button button-outline" href={profile.links.resume} download>
               <ArrowDownToLine size={16} aria-hidden="true" /> Download Resume PDF

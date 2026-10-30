@@ -5,7 +5,7 @@ export const profile = {
   introduction:
     "I'm a Computer Science and Engineering graduate passionate about building practical software solutions, AI-powered applications, and reliable backend systems. I enjoy turning ideas into useful products and continuously learning new technologies.",
   location: 'Bengaluru, Karnataka, India',
-  email: '',
+  email: 'madhuleo33@gmail.com',
   links: {
     github: '',
     linkedin: '',
