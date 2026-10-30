@@ -22,19 +22,17 @@ export const education = {
 };
 
 export const skillGroups = [
-  { title: 'Programming languages', skills: ['Python', 'Java', 'JavaScript'] },
-  { title: 'Backend development', skills: ['Flask', 'Django', 'FastAPI', 'REST APIs', 'CRUD operations'] },
-  { title: 'Databases', skills: ['MySQL', 'SQLite'] },
+  { title: 'Programming Languages', skills: ['Python', 'Java', 'JavaScript', 'SQL'] },
+  { title: 'Backend Development', skills: ['Flask', 'Django', 'FastAPI', 'REST APIs', 'CRUD'] },
   {
-    title: 'AI & data',
-    skills: ['Machine Learning', 'Deep Learning', 'NLP fundamentals', 'Large Language Models (LLMs)', 'OpenCV', 'MediaPipe', 'NumPy', 'Pandas'],
+    title: 'AI and Data',
+    skills: ['Machine Learning', 'Deep Learning', 'NLP', 'LLMs', 'OpenCV', 'MediaPipe', 'NumPy', 'Pandas'],
   },
-  { title: 'Frontend', skills: ['HTML5', 'CSS3', 'React.js', 'Vite'] },
+  { title: 'Front-End & Databases', skills: ['MySQL', 'SQLite', 'HTML5', 'CSS3', 'React.js', 'Vite'] },
   {
-    title: 'Software engineering',
-    skills: ['Object-Oriented Programming (OOP)', 'Git', 'GitHub', 'Software Development Life Cycle (SDLC)', 'Problem-solving', 'Debugging'],
+    title: 'Software Engineering',
+    skills: ['OOP', 'Git', 'GitHub', 'SDLC', 'Problem Solving', 'Debugging', 'Cloud Computing'],
   },
-  { title: 'Additional knowledge', skills: ['Cloud Computing Fundamentals'] },
 ];
 
 export const experience = {
